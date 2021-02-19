@@ -1,0 +1,13 @@
+*.pyc
+*.sublime-project
+*.sublime-workspace
+db.sqlite3
+__pycache__
+.idea
+.DS_store
+#settings.py
+**/env/**
+.env/
+.vscode/
+*.sqlite3
+*.media
