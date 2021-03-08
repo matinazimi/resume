@@ -1,0 +1,15 @@
+kind: ExternalService
+name: matinazimi
+spec:
+  image_pull_policy: Always
+  port: 80
+  source:          
+    context: .
+    media_path: ''
+    project_type: django
+    python_version: 3.8.5
+    static_path: staticfiles
+    wsgi: resume.wsgi
+  domains:
+   - name: matinazimi.ir          
+
